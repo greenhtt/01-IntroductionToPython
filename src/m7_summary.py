@@ -50,4 +50,13 @@ myth.pen = rg.Pen('blue',10)
 myth.left(90)
 myth.forward(200)
 myth.pen_up()
-myth.
+
+my_point = rg.Point(100, -40)
+myth.go_to(my_point)
+
+# myth.go_to(100, -40)
+
+myth.pen_down()
+myth.pen = rg.Pen('green',10)
+myth.backward(150)
+window.close_on_mouse_click()
